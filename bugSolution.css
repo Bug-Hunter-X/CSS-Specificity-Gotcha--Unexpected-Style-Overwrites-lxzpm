@@ -1,0 +1,18 @@
+/* bugSolution.css */
+#myElement {
+  color: blue !important; /* Use !important only as a last resort */
+}
+
+.myClass {
+  color: green;
+}
+
+/* Or, adjust specificity in another way: */
+.myClass #myElement{
+  color: blue;
+}
+
+/* Or provide a more specific selector matching the element. */
+#myElement.myClass {
+  color: blue; 
+}
